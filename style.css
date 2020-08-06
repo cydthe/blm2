@@ -1,0 +1,112 @@
+
+     html {
+      box-sizing: border-box;
+      padding: 2em;
+    }    
+     body{
+         background-color: black;
+         font-family: 'Andada';font-size: 1.5em
+      }
+     h1{
+        text-align: center;
+        padding-top: .2em;
+        padding-bottom: .2em;
+     }
+     h2{
+       text-align: center;
+     }
+    li {
+       text-align: center;
+     }
+     footer{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        background-color:rgba(255, 255, 255, 0.041);
+        margin: .1em;
+        font-size: 16px;
+        box-sizing: border-box;
+        padding: 1em;
+        
+     }
+     #page-container {
+      position: relative;
+      min-height: 100vh;
+    }
+    
+    #content-wrap {
+      padding-bottom: 2.5rem;    /* Footer height */
+    }
+    
+     a:link {
+      color:white;
+     }
+     a:visited {
+      color:rgb(95, 93, 93);
+     }
+     a:hover {
+      color: gold;
+     }
+     a:active {
+      color: yellow;
+    }
+    div.flex-container#donl{
+       display:flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       padding: 1em;
+       margin-bottom: 2em;
+    }
+    div.flex-items{
+       margin: 5px;
+    }
+    img.flex-container{
+       float: left;
+       
+    }
+    p{
+       color:honeydew;
+       margin-top: 1em;
+       font-size: 16px;
+       font-weight: 550;
+    }
+    div.flex-items-home{
+       display: flex;
+       flex-direction: row;
+       background-color: #FFFF66;
+       margin: 10px;
+       padding: 1em;
+      
+    }
+   
+    
+      div.click-to-top span {
+         display: none; 
+         position: absolute; 
+         top: -5px; 
+         left: 0; 
+         right: 50%; 
+         background:black;
+         color: #fff; 
+      }
+      div.click-to-top:hover span {
+         display: flex; 
+      }
+      #ppl{
+      color: honeydew;
+      float: right;
+     
+      }
+      img#mp{
+         border-radius: 50%;
+      }
+      li{
+         display: flex;
+      }
+      ul{
+         margin: 1em;
+         margin-bottom: 2em;
+      }
