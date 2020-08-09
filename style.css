@@ -1,11 +1,11 @@
 
      html {
       box-sizing: border-box;
-      padding: 1em;
     }    
      body{
          background-color: black;
-         font-family: 'Andada';font-size: 1.5em
+         font-family: 'Andada';font-size: 1.5em;
+         text-align: center;
       }
      h1{
         text-align: center;
@@ -26,16 +26,16 @@
         width: 100%;
         color: white;
         background-color:rgba(255, 255, 255, 0.041);
-        margin: 1em;
         font-size: 16px;
         box-sizing: border-box;
-        padding: 1em;
+       
       
         
      }
      #page-container {
       position: relative;
       min-height: 100vh;
+      width: 100%
     }
     
     #content-wrap {
@@ -74,6 +74,8 @@
        margin-top: 1em;
        font-size: 16px;
        font-weight: 550;
+       padding: 1em;
+       margin: 1em;
     }
     div.flex-items-home{
        display: flex;
@@ -113,3 +115,4 @@
          margin: 1em;
          margin-bottom: 2em;
       }
+   
